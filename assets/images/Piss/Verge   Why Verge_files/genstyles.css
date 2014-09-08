@@ -1,0 +1,227 @@
+/* (c) 2006. Malikwamali Associates */
+
+.astyle2, .astyle3
+{
+  font-size: 13px;
+  font-family: Arial;  
+}
+
+.astyle2 A, .astyle2 A:link, .astyle2 A:visited, .astyle2 A:hover, .astyle2 A:active
+{
+  font-size: 13px;
+  font-family: Arial;  
+  font-weight: normal;  
+  color: #000066;
+  text-decoration: underline;
+}
+
+.astyle3 A:link, .astyle3 A:visited, .astyle3 A:hover 
+{
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000066;
+  font-family: Arial;
+}
+
+INPUT
+{
+  font-family:Arial;
+  font-size: 12px; 
+}
+
+B
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 10px;
+  text-align:left;
+  color:#000000;
+}
+
+body
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 11px; 
+  text-align:left;
+  color:#000000;
+  background-color:#F8D57B;
+  text-align:center;
+  padding: 0px;
+  margin: 0px;	  
+}
+
+H1
+{
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+H2
+{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+}
+
+H3
+{
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0px;
+  text-align: center;
+}
+
+H4
+{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0px;
+  text-align: center;
+}
+
+H5
+{
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px;
+  text-align: center;
+}
+
+H6
+{
+  font-weight: bold;
+  font-size: 10px;
+  margin: 0px;
+  text-align: center;
+}
+
+td
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 10px;
+  text-align:left;
+  color:#000000;
+}
+
+SELECT
+{
+  font-size: 11px;
+}
+
+TEXTAREA
+{
+  font-family:Arial;
+  font-size: 12px;
+}
+
+th
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-size: 10px;
+  text-align:left;
+  color:#000000;
+}
+
+.fb INPUT, .fb TEXTAREA
+{
+  background-color: #F8D57B;
+  font-family:Arial;
+  font-size: 12px; 
+  width: 200px
+}
+
+.textInput
+{
+  width: 200px;
+}
+
+/* malikwamali banner */
+div#banner
+{
+	display:inline;
+	float:left;
+  	margin: 0px 0px 0px 0px;
+  	padding: 0px 0px 0px 0px;
+	text-align:center;
+	width:800px;
+}
+
+div#banner p
+{
+	margin:0
+}
+
+/* malikwamali copyright notice */
+div#copyright
+{
+	clear:both;
+	width:auto;
+  	margin: 0px 0px 7px 7px;
+	padding: 5px 0px;
+    background: #CC9933;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:center
+}
+
+div#copyright p
+{
+	margin:0
+}
+
+/* malikwamali parent div */
+div#parent
+{
+	width:800px;
+	margin:0 auto 0px;
+	padding:0;
+	text-align:left
+}
+
+/* our own version of the copyright notice*/
+div#transparent_copyright
+{
+	clear:both;
+	width:800px;
+  	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:center
+}
+
+div#transparent_copyright p
+{
+	margin:0
+}
+
+.error
+{
+    color:#CC0000;
+}
+
+FORM
+{
+padding:0;
+margin:0;
+}
+
+span.copyright A, span.copyright A:visited 
+{
+	text-decoration:none;
+	color:#555555;
+	font-weight:normal;
+}
+
+span.copyright A:hover
+{
+	text-decoration:underline;
+	color:#000066;
+	font-weight:normal;
+}
+

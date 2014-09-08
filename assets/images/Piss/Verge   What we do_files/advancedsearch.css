@@ -1,0 +1,129 @@
+/* inbox contents */
+div#content
+{
+	float:left;
+	display:inline;
+	width:800px;
+  	padding: 0px;
+	margin:0;
+    overflow: hidden;
+}
+
+/* 
+ *  Page title 
+ */
+ 
+h3#page_title
+{
+	background-color:#CC9933; 
+	text-align:center;
+	border-top: 2px solid #666666; 
+	border-bottom: 2px solid #666666;
+	padding:0;
+	margin: 0 0 5;
+}
+
+
+/*
+ *  Advanced search page layout.
+ */
+
+ul#layout
+{
+	width:800px;
+	overflow:hidden;
+  	padding: 0;
+	margin:0;
+	list-style-type:none;
+}
+
+
+/*
+ * Adverts at the right side bar
+ */
+ 
+li#adverts
+{
+	float:left;
+	width: 199;
+	border-left: 1px dashed #CC9933;
+}
+
+/*
+ * Advanced search controls
+ */
+li#controls
+{
+	float:left;
+	width: 600;
+}
+
+.attribute_container
+{
+	overflow:hidden; 
+	padding:10 0; 
+	margin:0;
+	width:600;
+}
+
+.attribute_caption
+{
+	display:inline; 
+	width:195; 
+	float:left; 
+	padding-left:5px;
+}
+
+.attribute_element
+{
+	display:inline; 
+	width:395; 
+	float:left; 
+	padding-left:5px;
+}
+
+.property_type_caption
+{
+	margin:0;
+	padding:5 0 5 202;
+	width:500px;;
+}
+
+.attribute_container_DHTML
+{
+	overflow:hidden; 
+	padding:5 0 5 0; 
+	margin:0;
+	display:block;
+	width:600;
+}
+
+
+/**
+ *  Set width of combobox to 200px
+ */
+
+.combo_width
+{
+	width:200px;
+}
+
+
+/**
+ *  Set cursor of label to pointer
+ */
+ 
+.label_cursor
+{
+	cursor:pointer;
+}
+
+/*/
+ *  Remember in IE the form is a layout object like DIVs, SPANs and Paragraphs
+ */
+ 
+FORM
+{
+	padding:0;
+	margin:0;
+}

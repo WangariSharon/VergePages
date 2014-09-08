@@ -1,0 +1,252 @@
+/* inbox contents */
+div#content
+{
+	width:800px;
+  	padding: 0px;
+	margin:0;
+    overflow: hidden;
+}
+
+/* inbox header - displays "Real Estates" */
+div#header
+{
+    background: #CC9933;
+	border-top: 2px solid #666666; 
+	border-bottom: 2px solid #666666;
+	clear:both;
+  	margin: 0px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding: 0px 0px 0px 0px;
+	text-align:center;
+	width:auto;
+}
+
+div#header p
+{
+	margin:0
+}
+
+ul#re_layout, ul#related_categories
+{
+	width:auto;
+	margin:0px;
+}
+
+ul#related_categories, ul#related_categories li
+{
+	list-style-type:none;
+  	padding: 0px;
+	margin: 0;
+}
+
+#related_categories A, #related_categories A:visited 
+{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	line-height:12px;
+	text-decoration:none;
+	color:#555555;
+	font-weight:normal;
+}
+
+#related_categories A:hover
+{
+	text-decoration:underline;
+	color:#000066;
+	font-size:11px;
+	font-weight:normal;
+}
+
+ul#re_layout,ul#re_layout li
+{
+	list-style-type:none;
+  	padding: 5px 5px 0px 5px;
+	margin:0;
+}
+
+li#left_side_bar
+{
+	float:left;
+	width: 150;
+}
+
+li#main_bar
+{
+	float:left;
+	width: 460;
+}
+li#right_side_bar
+{
+	float:left;
+	width: 150;
+}
+
+div#related_categories_header, div#related_categories_body, div#weather_updates_header
+{
+	margin: 0px;
+}
+
+
+div#related_categories_header, div#sample_properties_header, div#weather_updates_header
+{
+	background:#CC9933;
+	padding: 5px;
+	font-weight:bold;
+}
+
+div#related_categories_header, div#weather_updates_header
+{
+	width:143px;
+}
+
+div#weather_updates_header
+{
+	text-align:center;
+}
+
+div#sample_properties_header
+{
+	width:453px;
+}
+
+div#related_categories_body, div#sample_properties_body
+{
+	border:#CC9933 2px solid;
+	background:#F8D57B;
+	padding:3 3 3 3px;
+}
+
+div#related_categories_body
+{
+	width:143px;
+}
+
+div#sample_properties_body
+{
+	width:453px;
+}
+
+ul#site_sections,ul#site_sections li
+{
+	list-style-type:none;
+  	padding: 5px 5px 0px 5px;
+	margin:0;
+	font-family: Arial;    
+	font-size: 13px;
+}
+
+
+#site_sections a:link, #site_sections a:visited {
+	display: block;
+	border-bottom: 1px solid #CC9933;
+	font-family: Arial;    
+	font-size: 13px;
+	padding: 1px 0px 1px 5px;
+	color: #333399;
+	text-decoration:none;
+	margin:0px;
+}
+
+#site_sections a:hover{
+	background-color: #CC9933;
+	background-image: none;
+	border-bottom: 1px solid #666666;
+	font-family: Arial;    
+	font-size: 13px;
+	color: #000000;
+	text-decoration:none;	
+	font-weight:bold;
+	margin:0px;
+}
+
+h3#re_headings
+{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+p#at_a_glance
+{
+	margin:0;
+	padding:0;
+}
+
+.type_text A, .type_text A:visited 
+{
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	line-height:12px;
+	text-decoration:none;
+	color:#555555;
+	font-weight:normal;
+}
+
+.type_text A:hover
+{
+	color:#000066;
+	text-decoration:underline;
+	font-weight:normal;
+	font-size:13px;
+}
+
+.type_text_parent
+{
+	overflow:hidden;
+	padding:0 0 5 0 
+}
+
+ul#property_list
+{
+	width:419;
+	overflow:hidden;
+	margin:0px 10px 0px 10px ;
+  	padding: 5px 2px 10px 2px ;
+	list-style-type:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+#property_extra_information
+{
+  color: #6F4A00;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  font-size: 11px; 
+}
+
+#property_title A, #property_title A:link, #property_title A:visited, #property_title A:hover
+{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #000066;
+  text-decoration: underline;  
+  font-weight:normal;
+  font-size: 14px;  
+}
+
+ul#pick_of_the_day
+{
+	width:450;
+}
+
+ul#pick_of_the_day,ul#pick_of_the_day li
+{
+	list-style-type:none;
+  	padding: 5px 5px 0px 5px;
+	margin:0;
+}
+
+li#pick_of_the_day_image
+{
+	float:left;
+	width: 105;
+}
+
+li#pick_of_the_day_details
+{
+	float:left;
+	width: 315;
+}
+
+
